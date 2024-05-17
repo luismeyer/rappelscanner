@@ -42,6 +42,7 @@ export default function RootLayout({
         <Background />
         <header className="flex justify-center mt-10">
           <Logo />
+          <div>debug</div>
         </header>
         {children}
         <Footer />
